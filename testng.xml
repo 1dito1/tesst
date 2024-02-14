@@ -1,8 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Suites" thread-count="3" parallel="tests">
+<suite name="All Suites" thread-count="5" parallel="tests">
     <test name="parameters" parallel="classes">
         <classes>
             <class name="TestSite"/>
+            <class name="ChangePassword"/>
+            <class name="chooseOption"></class>
+            <class name="LogInWithInccData"></class>
 
         </classes>
     </test>
